@@ -40,7 +40,7 @@ if __name__ == "__main__":
                             app_icon='water-icon.ico', timeout=20)
 
         # Update DataBase
-        with open("waterDB.txt", "a") as f:`
+        with open("waterDB.txt", "a") as f:
             f.write(f"Reminder No: {str(counter)} - {timeStamp.split(' ')[0]} @ {timeNow}\n")
             f.close()
 
